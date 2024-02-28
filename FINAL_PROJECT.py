@@ -101,6 +101,7 @@ def load_custom_css():
         </style>
         """, unsafe_allow_html=True)
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     load_custom_css()
-    main()
+    main()
+
